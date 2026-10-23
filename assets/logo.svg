@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0a0a12"/>
+  
+  <!-- Outer geometric frame, off-center and cropped feel -->
+  <polygon points="28,196 28,60 196,60 196,28 228,28 228,228 60,228 60,196" fill="none" stroke="#e8e8f0" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Shattered padlock body - angular broken form -->
+  <polygon points="78,140 78,108 98,88 138,88 158,108 158,140 138,160 118,160 118,176 98,176 78,160" fill="#e8e8f0" opacity="0.15"/>
+  
+  <!-- Lock body main shape with sharp cut -->
+  <path d="M72 148 L72 112 L96 84 L140 84 L164 108 L164 148 L140 172 L140 184 L116 184 L116 172 L96 172 Z" 
+        fill="none" stroke="#e8e8f0" stroke-width="3.5" stroke-linejoin="miter"/>
+  
+  <!-- Broken shackle - left fragment -->
+  <path d="M96 84 L96 52 L120 28 L148 28 L152 34" 
+        fill="none" stroke="#e8e8f0" stroke-width="3.5" stroke-linecap="square"/>
+  
+  <!-- Broken shackle - right fragment, reforming into circuit -->
+  <path d="M148 28 L172 28 L180 40 L180 52 L164 60 L164 72" 
+        fill="none" stroke="#39ff14" stroke-width="3.5" stroke-linecap="square"/>
+  
+  <!-- Circuit traces from broken shackle into keyhole -->
+  <polyline points="164,72 164,84 148,100 148,112" fill="none" stroke="#39ff14" stroke-width="2.5" stroke-linecap="square"/>
+  <polyline points="148,112 132,112 132,128 116,128" fill="none" stroke="#39ff14" stroke-width="2.5" stroke-linecap="square"/>
+  
+  <!-- Circuit nodes -->
+  <rect x="160" y="68" width="8" height="8" fill="#39ff14"/>
+  <rect x="144" y="108" width="8" height="8" fill="#39ff14"/>
+  <rect x="112" y="124" width="8" height="8" fill="#39ff14"/>
+  
+  <!-- Keyhole focal mark - glowing -->
+  <circle cx="120" cy="128" r="11" fill="#ff3b3b" opacity="0.9"/>
+  <circle cx="120" cy="128" r="6" fill="#0a0a12"/>
+  <polygon points="115,134 125,134 123,152 117,152" fill="#ff3b3b" opacity="0.9"/>
+  
+  <!-- Glow aura around keyhole -->
+  <circle cx="120" cy="128" r="20" fill="none" stroke="#ff3b3b" stroke-width="1" opacity="0.35"/>
+  <circle cx="120" cy="128" r="28" fill="none" stroke="#ff3b3b" stroke-width="0.5" opacity="0.15"/>
+  
+  <!-- Fracture lines on lock body -->
+  <line x1="96" y1="112" x2="132" y2="140" stroke="#ff3b3b" stroke-width="1.5" opacity="0.6"/>
+  <line x1="140" y1="96" x2="140" y2="120" stroke="#ff3b3b" stroke-width="1" opacity="0.4"/>
+  <line x1="78" y1="132" x2="98" y2="132" stroke="#ff3b3b" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Industrial detail bars -->
+  <rect x="72" y="192" width="24" height="3" fill="#e8e8f0" opacity="0.4"/>
+  <rect x="104" y="192" width="12" height="3" fill="#ff3b3b" opacity="0.6"/>
+  <rect x="124" y="192" width="40" height="3" fill="#e8e8f0" opacity="0.2"/>
+  
+  <!-- Corner accent marks -->
+  <polyline points="28,76 28,60 44,60" fill="none" stroke="#39ff14" stroke-width="2" opacity="0.7"/>
+  <polyline points="212,28 228,28 228,44" fill="none" stroke="#39ff14" stroke-width="2" opacity="0.7"/>
+  <polyline points="228,212 228,228 212,228" fill="none" stroke="#39ff14" stroke-width="2" opacity="0.7"/>
+  <polyline points="44,228 28,228 28,212" fill="none" stroke="#39ff14" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Small wordmark -->
+  <text x="128" y="218" font-family="monospace" font-size="9" fill="#e8e8f0" text-anchor="middle" letter-spacing="3" opacity="0.6">HWID-ALL-GAMES</text>
+  
+  <!-- Scanline details -->
+  <line x1="60" y1="44" x2="196" y2="44" stroke="#39ff14" stroke-width="0.5" opacity="0.25"/>
+  <line x1="60" y1="48" x2="196" y2="48" stroke="#39ff14" stroke-width="0.5" opacity="0.15"/>
+</svg>
